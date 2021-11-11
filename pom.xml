@@ -32,7 +32,7 @@
     <version>4.9.2</version>
     <packaging>pom</packaging>
     <name>Apache RocketMQ ${project.version}</name>
-    <url>http://rocketmq.apache.org/</url>
+    <url>https://rocketmq.apache.org/</url>
 
     <scm>
         <url>git@github.com:apache/rocketmq.git</url>
@@ -80,7 +80,7 @@
 
     <organization>
         <name>Apache Software Foundation</name>
-        <url>http://www.apache.org</url>
+        <url>https://www.apache.org</url>
     </organization>
 
     <issueManagement>
