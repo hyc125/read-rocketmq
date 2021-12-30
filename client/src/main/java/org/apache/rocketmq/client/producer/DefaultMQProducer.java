@@ -996,6 +996,8 @@ public class DefaultMQProducer extends ClientConfig implements MQProducer {
         msgBatch.setTopic(withNamespace(msgBatch.getTopic()));
         return msgBatch;
     }
+    
+    // --------------------- getter & setter ---------------------
 
     public String getProducerGroup() {
         return producerGroup;

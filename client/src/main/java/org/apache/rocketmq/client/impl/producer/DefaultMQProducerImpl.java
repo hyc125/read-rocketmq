@@ -912,6 +912,7 @@ public class DefaultMQProducerImpl implements MQProducerInner {
             }
         }
 
+        // 为什么不能提前报错,非要留到这里
         throw new MQClientException("The broker[" + mq.getBrokerName() + "] not exist", null);
     }
 
@@ -1603,6 +1604,8 @@ public class DefaultMQProducerImpl implements MQProducerInner {
             }
         }
     }
+
+    // --------------------- getter & setter ---------------------
 
     public ConcurrentMap<String, TopicPublishInfo> getTopicPublishInfoTable() {
         return topicPublishInfoTable;
